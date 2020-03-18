@@ -1,0 +1,15 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div.error {
+  color: red;
+}
+
+.data{margin:20px}
+
+body{
+  background-color: black;
+  color:yellow;
+}
