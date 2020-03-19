@@ -17,7 +17,16 @@ class AddQuote extends React.Component {
     e.preventDefault();
     // update the redux members store
     this.props.addMember(this.state.newMember,this.state.author);
-    //e.target.reset();
+
+    //   e.target.parentNode[0].value = '';
+    //   e.target.parentNode[1].value = '';
+
+
+    this.setState({
+      newMember: '',
+      author: ''
+  });  
+ 
   };
 
   render() {
